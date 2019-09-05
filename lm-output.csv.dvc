@@ -1,0 +1,12 @@
+md5: edd7007f11dea2fa6fe42e5c33df3cf7
+cmd: Rscript scripts/lm-model.R
+wdir: .
+deps:
+- md5: d100dbed6c5ce6f74e0ba16127fa7e16
+  path: data/data.csv
+outs:
+- md5: 6f97cfae899808a76a2236d552406dcb
+  path: output/lm-output.csv
+  cache: true
+  metric: false
+  persist: false
